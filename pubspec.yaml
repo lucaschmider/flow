@@ -1,0 +1,27 @@
+name: flow
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  uuid: ^3.0.7
+  bloc: ^8.1.1
+  flutter_bloc: ^8.1.2
+  hydrated_bloc: ^9.1.0
+  google_fonts: ^4.0.3
+  path_provider: ^2.0.14
+  flutter:
+    sdk: flutter
+  collection: any
+  intl: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
